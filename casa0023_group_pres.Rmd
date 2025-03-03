@@ -1,0 +1,20 @@
+---
+title: "CASA0023 Remote Sensing"
+subtitle: "Group Presentation"
+author: "AIMPACT<br>Paul McNicholas, Sadia Munye, Tariro Mashongamhende"
+institute: "UCL - CASA"
+date: "03/03/2025 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+# London Plan
+
+```{r echo=FALSE, out.width='100%', fig.align='left'}
+knitr::include_graphics("https://www.london.gov.uk/sites/default/files/styles/media_component_16_9_lg/public/london-plan-image-2x1.png?h=8deaf57e&itok=bALShO-G")
+```
