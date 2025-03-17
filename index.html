@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="" xml:lang="">
   <head>
-    <title>CASA0023 Remote Sensing</title>
+    <title>Beyond the Smoke</title>
     <meta charset="utf-8" />
     <meta name="author" content="AIMPACT Paul McNicholas, Sadia Munye, Tariro Mashongamhende" />
-    <script src="libs/header-attrs-2.29/header-attrs.js"></script>
+    <script src="libs/header-attrs-2.28/header-attrs.js"></script>
     <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
   </head>
@@ -13,10 +13,10 @@
 class: center, middle, inverse, title-slide
 
 .title[
-# CASA0023 Remote Sensing
+# Beyond the Smoke
 ]
 .subtitle[
-## Group Presentation
+## Exploring ULEZ’s Impact on London’s Air Quality
 ]
 .author[
 ### AIMPACT<br>Paul McNicholas, Sadia Munye, Tariro Mashongamhende
@@ -31,15 +31,29 @@ class: center, middle, inverse, title-slide
 ---
 
 
+London is the capital city of the United Kingdom and has a population of 9.84 million. Air pollution is a public health crisis in London, causing up to 9400 extra deaths each year (source: London Air Quality Network) 
+
 &lt;img src="https://www.london.gov.uk/sites/default/files/styles/media_component_16_9_lg/public/london-plan-image-2x1.png?h=8deaf57e&amp;itok=bALShO-G" width="100%" style="display: block; margin: auto auto auto 0;" /&gt;
 
 ---
 
-## Problem
+## London's Air Quality Problem
 
-https://www.bbc.co.uk/news/uk-england-london-58230278
 
-https://www.bbc.co.uk/news/articles/c4nw2r72l5ro
+&lt;div style="display: flex; justify-content: space-between;"&gt;
+  &lt;div style="text-align: center; width: 48%;"&gt;
+    &lt;img src="Air_toxins.png" style="width: 100%;" /&gt;
+    &lt;p&gt;&lt;span style="color: black;"&gt;Source:&lt;/span&gt; &lt;a href="https://www.bbc.co.uk/news/articles/c4nw2r72l5ro" target="_blank"&gt;BBC News&lt;/a&gt;&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div style="text-align: center; width: 48%;"&gt;
+    &lt;img src="Poor_Airqual.png" style="width: 100%;" /&gt;
+    &lt;p&gt;&lt;span style="color: black;"&gt;Source:&lt;/span&gt; &lt;a href="https://www.bbc.co.uk/news/uk-england-london-58230278" target="_blank"&gt;BBC News&lt;/a&gt;&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+---
 
 ## Improvements since ULEZ
 
@@ -48,6 +62,8 @@ https://www.theguardian.com/environment/2025/mar/07/london-air-pollution-down-si
 https://www.thetimes.com/uk/environment/article/expanded-ulez-cuts-emissions-nitrogen-dioxide-d5tz22fdr
 
 Are these enough?  Percentage decrease mentioned but not actual levels. What are the actual levels? Are they still at harmful level?
+
+---
 
 ## 11th March 2025
 https://metro.co.uk/2025/03/11/air-quality-bad-london-right-now-22708829/
@@ -86,10 +102,6 @@ https://www.who.int/news-room/feature-stories/detail/what-are-the-who-air-qualit
 
 ---
 
-# Benefits
-
-
----
 
 # Data required
 
@@ -116,11 +128,34 @@ https://thepihut.com/collections/environment-air-quality-sensors?srsltid=AfmBOoo
 
 # Process
 
+In August 2023 the mayor of London expanded the ultra low emission zone across all london boroughs to help tackle air pollution 
+
+In 2019 it was piloted in central london 
+
+In 2021 it was expanded up to the north and south circular roads 
+And now all of london.
+
+Pollutants: NO2 and SO2 and PM2.5 (collected by the sensor) (These pollutants were chosen by the GLA to analyse). 
+
+---
+Creating a GEE dashboard with a layer showing the multi date PCA between 2019, 2021 and 2023, NDVI and temperature. Also potentially finding public health data that is spatial and undertaking regression regression or machine learning to identify the worse off areas. 
+
+A PCA layer for sentinel 5P - 
+And then including a layer that shows more localised air quality levels taken from the air quality sensors. 
+
+Also including a layer of traffic counts from the tfl and  
+Shapefiles of the 2019-2021 and 2023 zones (Can be found from TFL but we could always make our own).
+
+Through this we can visually explore the impacts of ULEZ on air quality in london. By combining remote sensing data, traffic data, and local sensor data, the dashboard provides a holistic view of how the ULEZ is influencing air quality and subsequently improving public health/ the environment. This could inform future policy decisions, such as further expansions of ULEZ, modifications to traffic management, or increased investment in green spaces.
 
 ---
 
 # Embedding within BAU
 
+
+---
+
+# Benefits
 
 ---
 
