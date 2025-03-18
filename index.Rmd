@@ -1,11 +1,12 @@
 ---
 title: "Beyond the Smoke"
-subtitle: "Exploring ULEZ’s Impact on London's Air Quality"
+subtitle: "Exploring Solutions For London's Poor Air Quality"
 author: "AIMPACT<br>Paul McNicholas, Sadia Munye, Tariro Mashongamhende"
 institute: "UCL - CASA"
 date: "28th March 2025"
 output:
   xaringan::moon_reader:
+    css: ["custom.css"]
     lib_dir: libs
     nature:
       highlightStyle: github
@@ -13,14 +14,17 @@ output:
       countIncrementalSlides: false
 ---
 
-London is the capital city of the United Kingdom and has a population of 9.84 million. Air pollution is a public health crisis in London, causing up to 9400 extra deaths each year (source: London Air Quality Network) 
 
-```{r echo=FALSE, out.width='100%', fig.align='left'}
-knitr::include_graphics("https://www.london.gov.uk/sites/default/files/styles/media_component_16_9_lg/public/london-plan-image-2x1.png?h=8deaf57e&itok=bALShO-G")
+London is the capital city of the United Kingdom and has a population of 9.84 million. Air pollution is a public health crisis in London, causing up to 9400 extra deaths each year (source: London Air Quality Network).
+
+```{r echo=FALSE, out.width='50%', fig.align='left'}
+knitr::include_graphics("London.png")
 ```
 
+```{r echo=FALSE, out.width='50%', fig.align='right'}
+knitr::include_graphics("background.jpg")
+```
 ---
-
 ## London's Air Quality Problem
 
 ```{r echo=FALSE, results='asis'}

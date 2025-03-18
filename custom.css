@@ -1,0 +1,9 @@
+body {
+  font-family: Arial, sans-serif;
+}
+.remark-slide-content:first-of-type {
+  background-image: url("images/skyline_tower_bridge.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Ensure the background image takes up the full height */
+}
