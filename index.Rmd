@@ -17,7 +17,7 @@ class: inverse, center, middle
 background-color: #800020
 color: white
 
-# London's Air Quality Problem
+# What is London's Air Quality Problem?
 
 ---
 
@@ -68,7 +68,7 @@ cat('
 
 ---
 
-## Air Quality Policy
+### We will help you meet these related policies
 
 ```{r xaringan-panelset, echo=FALSE}
 xaringanExtra::use_panelset()
@@ -115,7 +115,7 @@ knitr::include_graphics('./who-guidelines.png')
 
 ---
 
-## What is happening right now (what is the baseline)
+### What is happening right now (what is the baseline)
 
 - Air quality in London is improving but there is still a lot of work to do
 - London is far behind meeting WHO guidelines
@@ -142,7 +142,7 @@ knitr::include_graphics('./plot-avg_no2.png')
 
 .pull-left[
 
-#### What is going to happen if nothing changes?  
+### The consequences of doing nothing...  
 
 <div style="background-color:#FFCDD2; padding:10px; border-radius:5px;">
 <strong>Deaths:</strong><br style="line-height:1.5;">
@@ -166,7 +166,7 @@ knitr::include_graphics('./plot-avg_no2.png')
 ]
 
 .pull-right[
-#### Why is this important and a pressing issue?  
+### This will help everybody  
 
 ```{r echo=FALSE, out.width='100%'}
 knitr::include_graphics('./phe-infographic.png')
@@ -187,55 +187,79 @@ class: inverse, center, middle
 background-color: #556B2F
 color: white
 
-# Solution
+# Our Solution
 
 ---
 
-# Data required
+### By integrating remote sensing data we can support you in linking, identifying and supporting vulnerable populations
+<br><br><br>
+.pull-left[
+<div style="background-color:#B0BEC5; padding:15px; border:2px solid #8B0000; border-radius:5px; margin-bottom:10px;">
+  <strong>The Challenge</strong>
+</div>
 
-- Must include at least one EO dataset
+<div style="background-color:#ECEFF1; padding:15px; border:2px solid #8B0000; border-radius:5px;">
+  Lack of a targeted approach to tackle areas in London where people are most vulnerable to air pollution
+</div>
+]
 
-Sentinel 5-P 
+.pull-right[
+<div style="background-color:#B0BEC5; padding:15px; border:2px solid #006400; border-radius:5px; margin-bottom:10px;">
+  <strong>We Propose</strong>
+</div>
 
-Pollution data:
+<div style="background-color:#ECEFF1; padding:15px; border:2px solid #006400; border-radius:5px;">
+  The ability to monitor air pollution data in real time and to visualise pollution vulnerability in London. 
+</div>
+]
 
-https://data.london.gov.uk/dataset/london-atmospheric-emissions-inventory--laei--2019
+---
 
-https://www.londonair.org.uk/london/asp/dataspecies.asp?species=NO2m
+## Methodology
 
-https://data.london.gov.uk/dataset/lsoa-atlas
-
-https://www.ecmwf.int/en/about/what-we-do/environmental-services/copernicus-atmosphere-monitoring-service
-
-https://ads.atmosphere.copernicus.eu/datasets/cams-europe-air-quality-reanalyses?tab=download
-
-Air Quality Sensors:
-https://thepihut.com/collections/environment-air-quality-sensors?srsltid=AfmBOooawErsmJrecmHc8nh24Tm0bjV-LphdNFqhXgXjTheSusDxX183
+```{r echo=FALSE, out.width='100%'}
+knitr::include_graphics('./method.png')
+```
 
 ---
 
-# Process
-
-In August 2023 the mayor of London expanded the ultra low emission zone across all london boroughs to help tackle air pollution 
-
-In 2019 it was piloted in central london 
-
-In 2021 it was expanded up to the north and south circular roads 
-And now all of london.
-
-Pollutants: NO2 and SO2 and PM2.5 (collected by the sensor) (These pollutants were chosen by the GLA to analyse). 
+### Step 1: Pollutant monitoring and risk identification
+<br>
+```{r echo=FALSE, out.width='100%'}
+knitr::include_graphics('./method-step-1.png')
+```
 
 ---
-Creating a GEE dashboard with a layer showing the multi date PCA between 2019, 2021 and 2023, NDVI and temperature. Also potentially finding public health data that is spatial and undertaking regression regression or machine learning to identify the worse off areas. 
 
-A PCA layer for sentinel 5P - 
-And then including a layer that shows more localised air quality levels taken from the air quality sensors. 
+### Step 2: Validation
+<br>
+```{r echo=FALSE, out.width='100%'}
+knitr::include_graphics('./method-step-2.png')
+```
 
-Also including a layer of traffic counts from the tfl and  
-Shapefiles of the 2019-2021 and 2023 zones (Can be found from TFL but we could always make our own).
+---
 
-Through this we can visually explore the impacts of ULEZ on air quality in london. By combining remote sensing data, traffic data, and local sensor data, the dashboard provides a holistic view of how the ULEZ is influencing air quality and subsequently improving public health/ the environment. This could inform future policy decisions, such as further expansions of ULEZ, modifications to traffic management, or increased investment in green spaces.
+### Sample Dashboard Preview
+<br>
+```{r echo=FALSE, out.width='100%'}
+knitr::include_graphics('./sample-dashboard.png')
+```
 
+---
+
+### A holistic approach to air quality monitoring 
+
+**Strengths:**
+
+*Equity-driven focus:* Helps direct resources to communities that suffer the most from poor air quality. Encourages targeted policy interventions that can reduce health disparities.
+
+*Multi–layer approach:* Observing NOx, PM₂.₅, and O₃ together, alongside greenspace and traffic data, provides a more holistic understanding of air pollution impacts.
+
+**Limitations:**
+
+*Temporal Mismatch:* Satellite and ground sensor data may not align perfectly in time.
+
+*Uncertainty in downscaling:* Estimating pollution levels at a higher resolution introduces potential error. 
 
 ---
 
@@ -244,27 +268,53 @@ background-color: #004D40
 color: white
 
 
-# Project Planning
+# Implementation plan
 
 ---
 
-# Project Planning - Timelines
-
-- Gant Chart
-- Possibly split into work packages
-
----
-
-# Project Planning - Work Packages
-
-- Details of each work package
-- Possibly overlaps the Process slide so need to see how this works in practice
-
+### We propose three phases of iterative deployment focusing on delivering value as soon as possible 
+<br>
+```{r echo=FALSE, out.width='100%'}
+knitr::include_graphics('./deployment-phases.png')
+```
 
 ---
 
-# Project Planning - Costs
+### We will work in an agile way and align our team to deliver against our proposed milestones 
+<br>
+```{r echo=FALSE, out.width='100%'}
+knitr::include_graphics('./draft-plan.png')
+```
 
 ---
 
-#Summary
+class: inverse, center, middle
+background-color: #301934
+color: white
+
+# Appendix
+
+---
+
+### Earth Observation Data
+<br>
+```{r echo=FALSE, out.width='100%'}
+knitr::include_graphics('./data-eo.png')
+```
+
+---
+
+### Other Data
+<br>
+```{r echo=FALSE, out.width='100%'}
+knitr::include_graphics('./data-additional.png')
+```
+
+---
+
+### Methodology - Step 1 - Detailed
+<br>
+```{r echo=FALSE, out.width='100%'}
+knitr::include_graphics('./method-detailed.png')
+```
+
