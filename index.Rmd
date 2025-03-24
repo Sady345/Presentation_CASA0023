@@ -151,10 +151,16 @@ Through this we can visually explore the impacts of ULEZ on air quality in londo
 
 ---
 
-# Project Planning - Timelines
+# We propose three phases of iterative deployment focusing on delivering value as soon as possible
 
-- Gant Chart
-- Possibly split into work packages
+```{r}
+<div style="display: flex; justify-content: space-between;">
+    <img src="timeline.png" style="width: 100%;" />
+    <p><span style="color: black;">Source:</span></p>
+</div>
+```
+
+
 
 ---
 
