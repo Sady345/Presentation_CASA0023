@@ -1,9 +1,9 @@
 ---
 title: "Beyond the Smoke"
-subtitle: "Exploring ULEZ’s Impact on London's Air Quality"
+subtitle: "Improving London's Air Quality for vunerable groups"
 author: "AIMPACT<br>Paul McNicholas, Sadia Munye, Tariro Mashongamhende"
 institute: "UCL - CASA"
-date: "28th March 2025"
+date: "25th March 2025"
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -13,82 +13,183 @@ output:
       countIncrementalSlides: false
 ---
 
-London is the capital city of the United Kingdom and has a population of 9.84 million. Air pollution is a public health crisis in London, causing up to 9400 extra deaths each year (source: London Air Quality Network) 
+class: inverse, center, middle
+background-color: #800020
+color: white
 
-```{r echo=FALSE, out.width='100%', fig.align='left'}
-knitr::include_graphics("https://www.london.gov.uk/sites/default/files/styles/media_component_16_9_lg/public/london-plan-image-2x1.png?h=8deaf57e&itok=bALShO-G")
-```
+# London's Air Quality Problem
 
 ---
 
-## London's Air Quality Problem
+London is the capital city of the United Kingdom and has a population of 9.84 million. 
+
+Air pollution is a public health crisis in London, causing up to 9,400 extra deaths each year (Source: [London Air Quality Network](https://www.londonair.org.uk/LondonAir/General/research.aspx)) 
+
 
 ```{r echo=FALSE, results='asis'}
 cat('
+<div style="background-color: #f0f0f0; padding: 15px; border-radius: 10px;">
 <div style="display: flex; justify-content: space-between;">
-  <div style="text-align: center; width: 48%;">
-    <img src="Air_toxins.png" style="width: 100%;" />
-    <p><span style="color: black;">Source:</span> <a href="https://www.bbc.co.uk/news/articles/c4nw2r72l5ro" target="_blank">BBC News</a></p>
+  <div style="text-align: center; width: 33%;">
+    <img src="Air_toxins.png" style="width: 100%; max-height: 300px; height: auto;" />
+    <p style="font-size: small;"><span style="color: black;">Source:</span> <a href="https://www.bbc.co.uk/news/articles/c4nw2r72l5ro" target="_blank">BBC News</a></p>
   </div>
-  <div style="text-align: center; width: 48%;">
-    <img src="Poor_Airqual.png" style="width: 100%;" />
-    <p><span style="color: black;">Source:</span> <a href="https://www.bbc.co.uk/news/uk-england-london-58230278" target="_blank">BBC News</a></p>
+  <div style="text-align: center; width: 33%;">
+    <img src="Poor_Airqual.png" style="width: 100%; max-height: 300px; height: auto;" />
+    <p style="font-size: small;"><span style="color: black;">Source:</span> <a href="https://www.bbc.co.uk/news/uk-england-london-58230278" target="_blank">BBC News</a></p>
+  </div>
+  <div style="text-align: center; width: 33%;">
+    <img src="bbc-air-pol.png" style="width: 100%; max-height: 300px; height: auto;" />
+    <p style="font-size: small;"><span style="color: black;">Source:</span> <a href="https://www.bbc.co.uk/news/uk-england-london-58230278" target="_blank">BBC News</a></p>
   </div>
 </div>
 ')
 ```
 
 
+```{r echo=FALSE, results='asis'}
+cat('
+<div style="display: flex; justify-content: space-between;">
+  <div style="text-align: center; width: 33%;">
+    <img src="high-air-pol.png" style="width: 100%; max-height: 100px; height: auto;" />
+    <p style="font-size: small;"><span style="color: black;">Source:</span> <a href="https://www.standard.co.uk/news/london/high-air-pollution-warning-issued-for-london-b1217767.html" target="_blank">The Standard</a></p>
+    </div>
+    <div style="text-align: center; width: 33%;">
+    <img src="sky-ulez.png" style="width: 90%; max-height: 100px; height: auto; border: 2px solid red; padding: 5px;" />
+    <p style="font-size: small;"><span style="color: black;">Source:</span> <a href="https://news.sky.com/story/anti-poison-ulez-scheme-has-lowered-air-pollution-most-in-london-boroughs-that-opposed-it-13323222" target="_blank">Sky News</a></p>
+    </div>
+    <div style="text-align: center; width: 33%;">
+    <img src="ulez-cuts-emissions.png" style="width: 90%; max-height: 100px; height: auto; border: 2px solid red; padding: 5px;" />
+    <p style="font-size: small;"><span style="color: black;">Source:</span> <a href="https://www.thetimes.com/uk/environment/article/expanded-ulez-cuts-emissions-nitrogen-dioxide-d5tz22fdr" target="_blank">The Times</a></p>
+    </div>
+</div>
+')
+```
 
 ---
 
-## Improvements since ULEZ
+## Air Quality Policy
 
-https://www.theguardian.com/environment/2025/mar/07/london-air-pollution-down-since-ulez-expansion-study
+```{r xaringan-panelset, echo=FALSE}
+xaringanExtra::use_panelset()
+```
 
-https://www.thetimes.com/uk/environment/article/expanded-ulez-cuts-emissions-nitrogen-dioxide-d5tz22fdr
+```{r echo=FALSE}
+xaringanExtra::style_panelset_tabs(
+  active_foreground = "#d22"
+)
+```
 
-Are these enough?  Percentage decrease mentioned but not actual levels. What are the actual levels? Are they still at harmful level?
-
----
-
-## 11th March 2025
-https://metro.co.uk/2025/03/11/air-quality-bad-london-right-now-22708829/
-
----
-
-# Policy
-
-## Sustainable Development Goals:
-
-- *SDG 11: Sustainable Cities and Communities*
- - Target 11.6: By 2030, reduce the adverse per capita environmental impact of cities, including by paying special attention to air quality and municipal and other waste management.
- - Indicator 11.6.2: Annual mean levels of fine particulate matter (e.g., PM₂.₅ and PM₁₀) in cities (population-weighted).
+.panelset.sideways[
+.panel[.panel-name[Sustainable Development Goals]
+- **SDG 11: Sustainable Cities and Communities**
+  - *Target 11.6*: By 2030, reduce the adverse per capita environmental impact of cities, including by paying special attention to air quality and municipal and other waste management.
+  - *Indicator 11.6.2*: Annual mean levels of fine particulate matter (e.g., PM₂.₅ and PM₁₀) in cities (population-weighted).
  
-- *SDG 3: Good Health and Well-being*
- - Target 3.9: By 2030, substantially reduce the number of deaths and illnesses from hazardous chemicals and air, water, and soil pollution and contamination.
- - Indicator 3.9.1: Mortality rate attributed to household and ambient air pollution.
+- **SDG 3: Good Health and Well-being**
+  - *Target 3.9*: By 2030, substantially reduce the number of deaths and illnesses from hazardous chemicals and air, water, and soil pollution and contamination.
+  - *Indicator 3.9.1*: Mortality rate attributed to household and ambient air pollution.
+]
 
-https://www.who.int/news-room/feature-stories/detail/what-are-the-who-air-quality-guidelines
+.panel[.panel-name[London Plan 2021]
+- **GG3: Creating a healthy city**
+<br><br>
+ - *GG3F*: seek to improve London’s air quality, reduce public exposure to poor air quality and minimise inequalities in levels of exposure to air pollution
+<br><br>
+- **SI1: Improving Air Quality**
+<br><br>
+  - Identify and deliver further improvements to air quality 
+  - Tackle poor air quality and protect health.
+    - Development should not:
+      - lead to further deterioration of existing poor air quality
+      - create any new areas that exceed air quality limits, or delay compliance
+      - create unacceptable risk of exposure to poor air quality
+]
+
+.panel[.panel-name[World Health Organisation]
+```{r echo=FALSE, out.width='100%'}
+knitr::include_graphics('./who-guidelines.png')
+```
+]
+]
 
 ---
 
-# Policy
+## What is happening right now (what is the baseline)
 
-## London Plan 2021
+- Air quality in London is improving but there is still a lot of work to do
+- London is far behind meeting WHO guidelines
+- Continuing to expose the population to significant health risks
 
-- *GG3: Creating a healthy city*
- - GG3F: seek to improve London’s air quality, reduce public exposure to poor air quality and minimise inequalities in levels of exposure to air pollution
-- *SI1: Improving Air Quality*
- - Identify and deliver further improvements to air quality and should not reduce air quality benefits that result from the Mayor’s or boroughs’ activities to improve air quality.
- - Tackle poor air quality and protect health.
- - Development should not: 
-  - lead to further deterioration of existing poor air quality
-  - create any new areas that exceed air quality limits, or delay compliance
-  - create unacceptable risk of exposure to poor air quality
+.panelset.sideways[
+.panel[.panel-name[Borough sites exceeding legal levels]
+```{r echo=FALSE, out.width='100%'}
+knitr::include_graphics('./plot-sites-exceed.png')
+```
+]
+
+.panel[.panel-name[Avergage Nitrogen Dioxide levels]
+```{r echo=FALSE, out.width='100%'}
+knitr::include_graphics('./plot-avg_no2.png')
+```
+]]
+
+.footnote[
+<span style="font-size: 10px;">Source: [Greater London Authority](https://data.london.gov.uk/dataset/air-quality-monitoring-diffusion-tube-results)</span>
+]
 
 ---
 
+.pull-left[
+
+#### What is going to happen if nothing changes?  
+
+<div style="background-color:#FFCDD2; padding:10px; border-radius:5px;">
+<strong>Deaths:</strong><br style="line-height:1.5;">
+- Global: 4.2 million (~7% of total deaths)<br style="line-height:1.5;">
+- UK: 28,000 - 36,000<br style="line-height:1.5;">
+- London: 9,400  
+</div>
+<br>
+<div style="background-color:#C8E6C9; padding:10px; border-radius:5px;">
+<strong>Disease by 2035:</strong><br style="line-height:1.5;">
+- >1.3 million new cases caused by PM2.5<br style="line-height:1.5;">
+- >1.1 million caused by NO2  
+</div>
+<br>
+<div style="background-color:#BBDEFB; padding:10px; border-radius:5px;">
+<strong>Financial Burden:</strong><br style="line-height:1.5;">
+- Total estimated costs to NHS and socal care:<br style="line-height:1.5;">
+- £1.6 to £5.56 billion
+</div>
+
+]
+
+.pull-right[
+#### Why is this important and a pressing issue?  
+
+```{r echo=FALSE, out.width='100%'}
+knitr::include_graphics('./phe-infographic.png')
+```
+
+More needs to be done, would a targeted approach reap more benefits to those most vulnerable to air pollution?
+
+This is where we can help....
+]
+
+.footnote[
+<span style="font-size: 10px;">Sources: [World Health Organization](https://www.who.int/news-room/fact-sheets/detail/ambient-%28outdoor%29-air-quality-and-health), [London Air Quality Network](https://www.londonair.org.uk/LondonAir/General/research.aspx), [Public Health England](https://www.gov.uk/government/publications/health-matters-air-pollution/health-matters-air-pollution)</span>
+]
+
+---
+
+class: inverse, center, middle
+background-color: #556B2F
+color: white
+
+# Solution
+
+---
 
 # Data required
 
@@ -135,19 +236,15 @@ Shapefiles of the 2019-2021 and 2023 zones (Can be found from TFL but we could a
 
 Through this we can visually explore the impacts of ULEZ on air quality in london. By combining remote sensing data, traffic data, and local sensor data, the dashboard provides a holistic view of how the ULEZ is influencing air quality and subsequently improving public health/ the environment. This could inform future policy decisions, such as further expansions of ULEZ, modifications to traffic management, or increased investment in green spaces.
 
----
-
-# Embedding within BAU
-
 
 ---
 
-# Benefits
+class: inverse, center, middle
+background-color: #004D40
+color: white
 
----
 
-# Limitations
-
+# Project Planning
 
 ---
 
