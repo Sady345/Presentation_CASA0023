@@ -296,6 +296,28 @@ color: white
 
 ---
 
+# References
+
+Ballinger, O. (2024) ‘Open Access Battle Damage Detection via Pixel-Wise T-Test on Sentinel-1 Imagery’. Available at: https://arxiv.org/abs/2405.06323.
+
+Greater London Authority. ‘Air Quality Monitoring - Diffusion Tube Results - London Datastore’, 2024. https://data.london.gov.uk/dataset/air-quality-monitoring-diffusion-tube-results.
+
+Greater London Authority. The London Plan: The Spatial Development Strategy for Greater London, March 2021. London: Greater London Authority, 2021.
+
+London Air Quality Network. ‘London Air Quality Network’. Accessed 23 March 2025. https://www.londonair.org.uk/LondonAir/General/research.aspx.
+
+Public Health England. ‘Health Matters: Air Pollution’. GOV.UK, 14 August 2018. https://www.gov.uk/government/publications/health-matters-air-pollution/health-matters-air-pollution.
+
+Public Health England. ‘Estimation of Costs to the NHS and Social Care Due to the Health Impacts of Air Pollution: Summary Report’, May 2018.
+
+United Nations. ‘Transforming Our World : The 2030 Agenda for Sustainable Development’. Refworld, 2015. https://www.refworld.org/legal/resolution/unga/2015/en/111816.
+
+World Health Organization. ‘WHO Global Air Quality Guidelines: Particulate Matter (‎PM2.5 and PM10)‎, Ozone, Nitrogen Dioxide, Sulfur Dioxide and Carbon Monoxide’, 2021. https://www.who.int/publications/i/item/9789240034228.
+
+World Health Organization. ‘Ambient (Outdoor) Air Pollution’, 24 October 2024. https://www.who.int/news-room/fact-sheets/detail/ambient-(outdoor)-air-quality-and-health.
+
+---
+
 ### Earth Observation Data
 <br>
 ```{r echo=FALSE, out.width='100%'}
@@ -316,34 +338,5 @@ knitr::include_graphics('./data-additional.png')
 <br>
 ```{r echo=FALSE, out.width='100%'}
 knitr::include_graphics('./method-detailed.png')
-```
-
----
-
-# References
-
-```{r echo=FALSE, results='asis'}
-cat('
-<div style="font-size: 0.6vw; text-align: left; padding: 10px;">
-
-<strong>Ballinger, O.</strong> (2024). <i>Open Access Battle Damage Detection via Pixel-Wise T-Test on Sentinel-1 Imagery</i>. Available at: <a href="https://arxiv.org/abs/2405.06323" target="_blank">arXiv</a>.  
-<br><br>
-<strong>Greater London Authority.</strong> (2024). <i>Air Quality Monitoring - Diffusion Tube Results - London Datastore</i>. Available at: <a href="https://data.london.gov.uk/dataset/air-quality-monitoring-diffusion-tube-results" target="_blank">London Datastore</a>.  
-<br><br>
-<strong>Greater London Authority.</strong> (2021). <i>The London Plan: The Spatial Development Strategy for Greater London</i>. London: Greater London Authority.  
-<br><br>
-<strong>London Air Quality Network.</strong> (2025). <i>London Air Quality Network</i>. Accessed 23 March. Available at: <a href="https://www.londonair.org.uk/LondonAir/General/research.aspx" target="_blank">London Air</a>.  
-<br><br>
-<strong>Public Health England.</strong> (2018). <i>Health Matters: Air Pollution</i>. GOV.UK, 14 August. Available at: <a href="https://www.gov.uk/government/publications/health-matters-air-pollution/health-matters-air-pollution" target="_blank">GOV.UK</a>.  
-<br><br>
-<strong>Public Health England.</strong> (2018). <i>Estimation of Costs to the NHS and Social Care Due to the Health Impacts of Air Pollution: Summary Report</i>.  
-<br><br>
-<strong>United Nations.</strong> (2015). <i>Transforming Our World: The 2030 Agenda for Sustainable Development</i>. Available at: <a href="https://www.refworld.org/legal/resolution/unga/2015/en/111816" target="_blank">UN</a>.  
-<br><br>
-<strong>World Health Organization.</strong> (2021). <i>WHO Global Air Quality Guidelines</i>. Available at: <a href="https://www.who.int/publications/i/item/9789240034228" target="_blank">WHO</a>.  
-<br><br>
-<strong>World Health Organization.</strong> (2024). <i>Ambient (Outdoor) Air Pollution</i>. 24 October. Available at: <a href="https://www.who.int/news-room/fact-sheets/detail/ambient-(outdoor)-air-quality-and-health" target="_blank">WHO</a>.  
-</div>
-')
 ```
 
