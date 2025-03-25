@@ -324,22 +324,47 @@ knitr::include_graphics('./method-detailed.png')
 
 Ballinger, O. (2024) ‘Open Access Battle Damage Detection via Pixel-Wise T-Test on Sentinel-1 Imagery’. Available at: https://arxiv.org/abs/2405.06323.
 
-Greater London Authority. ‘Air Quality Monitoring - Diffusion Tube Results - London Datastore’, 2024. https://data.london.gov.uk/dataset/air-quality-monitoring-diffusion-tube-results.
+Clarke, K., Ash, K., Coker, E. S., Sabo-Attwood, T., & Bainomugisha, E. (2022) ‘A Social Vulnerability Index for Air Pollution and Its Spatially Varying Relationship to PM2.5 in Uganda’. Atmosphere, 13, 8, 1169. 
 
 Greater London Authority. The London Plan: The Spatial Development Strategy for Greater London, March 2021. London: Greater London Authority, 2021.
 
-London Air Quality Network. ‘London Air Quality Network’. Accessed 23 March 2025. https://www.londonair.org.uk/LondonAir/General/research.aspx.
+Greater London Authority. ‘Air Quality Monitoring - Diffusion Tube Results - London Datastore’, 2024. https://data.london.gov.uk/dataset/air-quality-monitoring-diffusion-tube-results.
 
-Public Health England. ‘Health Matters: Air Pollution’. GOV.UK, 14 August 2018. https://www.gov.uk/government/publications/health-matters-air-pollution/health-matters-air-pollution.
+Grigoratos, T., & Martini, G. (2014) ‘Non-exhaust traffic related emissions. Brake and tyre wear PM’, Report EUR, 26648.
 
-Public Health England. ‘Estimation of Costs to the NHS and Social Care Due to the Health Impacts of Air Pollution: Summary Report’, May 2018.
+Han, S., Kundhikanjana, W., Towashiraporn, P., & Stratoulias, D. (2022) ‘Interpolation-Based Fusion of Sentinel-5P, SRTM, and Regulatory-Grade Ground Stations Data for Producing Spatially Continuous Maps of PM2.5 Concentrations Nationwide over Thailand’, Atmosphere, 13, 2, 161. 
+
+
 
 ---
 # References (2)
 
-United Nations. ‘Transforming Our World : The 2030 Agenda for Sustainable Development’. Refworld, 2015. https://www.refworld.org/legal/resolution/unga/2015/en/111816.
+Home. (2023) The U.S. Climate Vulnerability Index. https://climatevulnerabilityindex.org/.
+
+London Air Quality Network. ‘London Air Quality Network’. Accessed 23 March 2025. https://www.londonair.org.uk/LondonAir/General/research.aspx.
+
+Lund, K. (2021) Climate change vulnerability index, Resilient Connecticut. https://resilientconnecticut.uconn.edu/ccvi/.
+
+Mamić, L., Gašparović, M. & Kaplan, G. (2023) ‘Developing PM2.5 and PM10 prediction models on a national and regional scale using open-source remote sensing data’, Environ Monit Assess 195, 644.
+
+Public Health England. ‘Estimation of Costs to the NHS and Social Care Due to the Health Impacts of Air Pollution: Summary Report’, May 2018.
+
+Public Health England. ‘Health Matters: Air Pollution’. GOV.UK, 14 August 2018. https://www.gov.uk/government/publications/health-matters-air-pollution/health-matters-air-pollution.
+
+
+---
+# References (3)
+
+Reshi, A. R., Moniruzzaman, M., Tripathi, A., Tiwari, R. K., & Rahaman, K. R. (2022) ‘A remote sensing based study of tropospheric ozone concentration amid COVID-19 lockdown over India using Sentinel-5P satellite data’, Geocarto International, 37, 27, 17145–17164.
+
+United Nations. ‘Transforming Our World : The 2030 Agenda for Sustainable Development’. Refworld, 2015.
+https://www.refworld.org/legal/resolution/unga/2015/en/111816.
+
+Varon, D.J., Jervis, D., Pandey, S., Gallardo, S.L., Balasus, N., Yang, L.H, and Jacob D.J. (2024) ‘Quantifying NOx point sources with Landsat and Sentinel-2 satellite observations of NO2 plumes,’ Proc. Natl. Acad. Sci. U.S.A, 121, 27.
+
+World Health Organization. ‘Ambient (Outdoor) Air Pollution’, 24 October 2024. https://www.who.int/news-room/fact-sheets/detail/ambient-(outdoor)-air-quality-and-health.
 
 World Health Organization. ‘WHO Global Air Quality Guidelines: Particulate Matter (‎PM2.5 and PM10)‎, Ozone, Nitrogen Dioxide, Sulfur Dioxide and Carbon Monoxide’, 2021. https://www.who.int/publications/i/item/9789240034228.
 
-World Health Organization. ‘Ambient (Outdoor) Air Pollution’, 24 October 2024. https://www.who.int/news-room/fact-sheets/detail/ambient-(outdoor)-air-quality-and-health.
+
 
